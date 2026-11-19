@@ -11,6 +11,10 @@
         .contact-box { background: #f9fafb; padding: 25px; border-left: 5px solid #000; margin-top: 40px; }
         .highlight-black { color: #000; font-weight: bold; font-size: 17px; }
         .footer { margin-top: 40px; font-size: 13px; color: #6b7280; text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        table th, table td { border: 1px solid #e5e7eb; padding: 12px; text-align: left; }
+        table th { background: #f9fafb; }
+        .note-box { background: #eff6ff; padding: 20px; border-left: 5px solid #3b82f6; margin-top: 20px; }
     </style>
 </head>
 <body>
@@ -44,8 +48,44 @@
     <h2>4. Exceptional Circumstances</h2>
     <p>Refund may only be considered in exceptional cases: (a) Duplicate payment due to technical error, proven by bank statement, (b) Service was completely non-functional for more than 72 continuous hours due to our fault. Such requests must be made within 7 days of payment with proof to our support email.</p>
 
+    <h2>4A. Detailed Refund Table - Kitne Din Me Kitna Refund Milega</h2>
+    <p>Section 3 aur 4 ke saath ye table bhi lagu hoga. Refund % is baat par depend karega ki aapne service ka kitna use kiya hai aur request kab ki hai:</p>
+    <table>
+        <tr><th>Situation</th><th>Refund</th></tr>
+        <tr><td>Certificate download NAHI hua aur 0-7 din ke andar cancel request ki</td><td><strong>100% Refund</strong></td></tr>
+        <tr><td>Certificate download ho gaya hai YA 7 din ke baad request ki</td><td><strong>0% Refund - No Refund</strong></td></tr>
+        <tr><td>Double payment kata / Payment fail hone ke baad bhi paisa kata (proof ke saath)</td><td><strong>100% Refund</strong> (extra kata hua amount)</td></tr>
+        <tr><td>Hamari taraf se certificate bana hi nahi / Service 72+ ghante lagatar band rahi hamari galti se</td><td><strong>100% Refund</strong></td></tr>
+        <tr><td>Partial use, change of mind, low usage, AI output se dissatisfaction, accidental purchase</td><td><strong>0% Refund</strong></td></tr>
+    </table>
+    <p><strong>Important:</strong> Refund ke baad us payment se juda Certificate / Premium Access turant band ho jayega.</p>
+
+    <h2>4B. Refund Kitne Din Me Aayega? - Payment Method Wise</h2>
+    <p>Refund approve hone ke baad paisa usi original payment method par wapas jayega jahan se payment aaya tha. Razorpay sirf source refund karta hai. UPI ka paisa UPI me, Card ka paisa Card me aayega.</p>
+    <table>
+        <tr><th>Payment Method</th><th>Refund Aane Ka Time</th></tr>
+        <tr><td>UPI</td><td><strong>2 - 7 Working Days</strong></td></tr>
+        <tr><td>NetBanking</td><td><strong>2 - 10 Working Days</strong></td></tr>
+        <tr><td>Credit / Debit Card</td><td><strong>5 - 10 Working Days</strong></td></tr>
+        <tr><td>Normal Refund (Razorpay Standard)</td><td><strong>5 - 7 Working Days</strong> me process hota hai</td></tr>
+    </table>
+    <div class="note-box">
+        <p><strong>Note:</strong> Working Days ka matlab Monday to Friday hota hai, Saturday-Sunday aur Bank Holiday count nahi hoga. Bank ke processing time ke hisaab se thoda aage-peeche ho sakta hai.</p>
+        <p><strong>Razorpay Fee:</strong> Razorpay refund karne ka koi extra charge nahi leta, lekin payment ke time lagi Transaction Fee + GST wapas nahi milti. Isliye 100% refund ke case me bhi wo fee merchant ko wapas nahi milegi.</p>
+    </div>
+
     <h2>5. How to Request Cancellation</h2>
     <p>To cancel future billing, send an email to chhabin541@gmail.com with subject "Cancellation Request - Clyxess AI" along with your registered email ID at least 48 hours before renewal.</p>
+
+    <h2>5A. Cancel / Refund Button Kahan Milega? - For Parents</h2>
+    <p>Parent ko Razorpay website par jaane ki zaroorat nahi hai. Cancel request apne Clyxess AI account se hi kar sakte hain:</p>
+    <ul>
+        <li><strong>My Orders / My Payments Page:</strong> Har payment ke saamne <strong>Cancel / Request Refund</strong> button hoga.</li>
+        <li><strong>Certificate Page:</strong> Download button ke neeche <strong>Payment Cancel Karna Hai?</strong> ka option hoga.</li>
+        <li><strong>Profile / Help:</strong> Support ko email karke bhi request kar sakte hain.</li>
+    </ul>
+    <p>Button dabate hi aapko ye confirmation dikhega: "Kya aap sure ho? Cancel karne par aapka certificate / premium access band ho jayega. Refund 5-7 working days me aayega."</p>
+    <p><strong>Process:</strong> Aapki request pehle hamare paas aayegi. Hamare approve karne ke baad hi Razorpay Dashboard se refund issue kiya jayega. Seedha auto-refund nahi hoga. Isse galti se dabaye gaye button se paisa wapas nahi jayega.</p>
 
     <h2>6. Chargebacks and Disputes</h2>
     <p>Filing a false chargeback or payment dispute without contacting us first will result in permanent account ban and legal action under Indian law. We request you to contact us first for any billing issue.</p>
